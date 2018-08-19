@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/current_weather_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_dimen_15"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/layout_dimen_10"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/updated_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="@dimen/layout_dimen_10"
+        android:textSize="@dimen/text_dimen_15" />
+
+    <TextView
+        android:id="@+id/current_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/updated_time"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="@dimen/layout_dimen_20"
+        android:textSize="@dimen/text_dimen_40" />
+
+    <TextView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/current_temperature"
+        android:layout_marginTop="@dimen/layout_dimen_20"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/text_dimen_70" />
+
+    <TextView
+        android:id="@+id/more_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_icon"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/get_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_dimen_50"
+        android:layout_margin="@dimen/layout_dimen_15"
+        android:textColor="@android:color/black"
+        android:text="@string/weatherforecast"
+        android:layout_alignParentBottom="true"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        style="@style/ProgressBarStyle"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

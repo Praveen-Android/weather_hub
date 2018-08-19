@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WeatherHub</string>
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+    <string name="weatherforecast">Show Forecast</string>
+    <string name="separator">/</string>
+    <string name="Get_Weather">Show Weather</string>
+    <string name="notification_text">check the latest weather report from WeatherHub</string>
+    <string name="notification_update">WeatherHub Update</string>
+    <string name="windDetails">Wind :</string>
+    <string name="humidity">Humidity :</string>
+    <string name="clouds">Clouds :</string>
+    <string name="pressure">Pressure :</string>
+    <string name="visibility">Visibility :</string>
+    <string name="location">location</string>
+    <string name="input_hint">Enter City</string>
+    <string name="input_entry_error">Invalid City</string>
+    <string name="api_error_string">Your request cannot be processed at this time. Please try again later</string>
+    <string name="notification_channel_description">Updates from WeatherHub</string>
+    <string name="notification_channel_name">WeatherHub</string>
+    <string name="notification_channel_ticker">Update from WeatherHub</string>
+</resources>
