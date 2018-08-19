@@ -1,5 +1,11 @@
 .gradle
-/build/
+/build
+app/build
+app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles
+app/.externalNativeBuild
+.idea
+local.properties
+*.iml
 
 # Ignore Gradle GUI config
 gradle-app.setting
